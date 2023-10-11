@@ -7,6 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const commandsFolder = path.join(__dirname, './commands');
+const modulesFolder = path.join(__dirname, './modules');
 const functions = require('./functions/functions.js');
 const craftReclaimed = require('./functions/craftReclaimed.js')
 const craftRefined = require('./functions/craftRefined.js')
@@ -126,6 +127,13 @@ fs.readdirSync(commandsFolder).forEach(file => {
                 command(client, tf2, steamID, message);
             }
         });
+    }
+});
+fs.readdirSync(modulesFolder).forEach(file => {
+    if(file.endsWith('.js')){
+        const moduleName = file.split('.')[0];
+        const module = require(path.join(modulesFolder, file));
+        module(client, tf2);
     }
 });
 
