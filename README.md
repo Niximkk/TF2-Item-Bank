@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Niximkk/TF2-Item-Bank/assets/85513545/c6f16035-63e7-4566-8553-9f22dc199a93" alt="TF2IBBanner" width="500" height="auto">
+</p>
+
 # TF2 Item Bank - Steam Bot
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
