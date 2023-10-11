@@ -1,8 +1,8 @@
-# Creating Custom Commands for TF2 Steam Bot
+# Creating Custom Commands for TF2 I.B.
 
 ## Introduction
 
-TF2 Steam Bot is a versatile bot designed for Team Fortress 2 (TF2) players. You can extend its functionality by creating custom commands. This guide will walk you through the process of creating and adding custom commands to the bot.
+TF2 I.B is a versatile bot designed for Team Fortress 2 (TF2) players. You can extend its functionality by creating custom commands. This guide will walk you through the process of creating and adding custom commands to the bot.
 
 ## Getting Started
 
